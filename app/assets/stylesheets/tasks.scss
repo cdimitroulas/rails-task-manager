@@ -1,3 +1,29 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.footer {
+  background-color: black;
+  height: 50px;
+  font-size: 30px;
+}
+.link-homepage{
+  text-decoration: none;
+  color: white;
+}
+.banner {
+  background-color: white;
+}
+li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+ul {
+  padding-left: 0;
+}
+#task-name {
+  font-size: 20px;
+  padding: 0px 30px;
+}
